@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fund Me Contract</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="title">FundMe App</div>
+    <div class="container">
+        <script src="./index.js" type="module">
+        </script>
+        
+        <button id="connectButton" class="connection"> Connect </button>
+        <button id="fundButton" class="funding"> Fund </button>
+
+        <!-- Breaking Flex point -->
+
+        <div class="break"></div>
+
+        <!-- Creating form -->
+        <div class="formflex">
+            <label class="form" for="fund"> $<span class="formattedtext">ETH </span> Amount </label>
+            <input class="formfield" id="ethAmount" placeholder="0.1">
+        </div>
+
+        <div class="break"></div>
+
+        <button class="checkingbutton" id="balanceButton"> Get Balance </button>
+    
+        <div class="break"></div>
+    </div>
+
+    <div class="withdrawcontainer">
+        <button id="withdrawButton" class="withdrawal"> Withdraw </button>
+    </div>
+</body>
+</html>
